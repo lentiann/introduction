@@ -17,3 +17,4 @@ Per probleme ma komplekse, eshte me i nevojshem sesa kodi aktual eshte i thjesht
 F5 -> Zakoisht fillon program ose skripten -> Pastaj perdoret per te vazhdu procesin deri ne breakpoint tjeter nese nuk ka vazhdon deri ne fund te programit
 F10 -> perdore per te vazhduar ne rreshtin tjeter te kodit
 F11 -> per te u futur brenda funksionit ne nivel me te detajuar.
+
