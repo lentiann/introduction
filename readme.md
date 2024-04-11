@@ -18,3 +18,6 @@ F5 -> Zakoisht fillon program ose skripten -> Pastaj perdoret per te vazhdu proc
 F10 -> perdore per te vazhduar ne rreshtin tjeter te kodit
 F11 -> per te u futur brenda funksionit ne nivel me te detajuar.
 
+
+#Creating the requirements.txt can be done with the following command: pip freeze > requirements.txt
+#Krijimi i requirements.txt mund të bëhet me komandën e mëposhtme: pip freeze > requirements.txt
