@@ -12,6 +12,8 @@ pjestimi = numri1 // numri2
 modulo = numri1 % numri2
 fuqia = numri1 ** numri2
 
+names = ["John", "Doe1"]
+
 # > , < , >= , <= , == , != Operatoret e krahasim (comparison operators)
 # logic operators AND, OR, NOT 
 
@@ -29,6 +31,22 @@ fuqia = numri1 ** numri2
 # else:
 #     print(f"{numri1} eshte i barabarte me {numri2}")
 
-if (numri1 == numri2) or (mosha == 17 and qyteti == "Durres"):
-    print("Te gjitha kushtet jane te plotesuara")
+# if (numri1 == numri2) or (mosha == 17 and qyteti == "Durres"):
+#     print("Te gjitha kushtet jane te plotesuara")
 
+
+# match mosha:
+#     case 18 | 19:
+#         print("Ju jeni te lejuar per te hyre brenda")
+#     case 17:
+#         print("Ju duhet te prisni edhe nje vit")   
+#     case _:
+#         print("Na vie keq nuk mundeni te hyjni ne lokal")
+
+match names:
+    case ["John", "Doe"]:
+        print("Emri i personit eshte John Doe")
+    case ["Jane", "Doe"]:
+        print("Emri i personit eshte Jane Doe")
+    case _:
+        print("Emri i personit nuk njihet")
